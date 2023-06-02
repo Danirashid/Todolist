@@ -1,3 +1,6 @@
+# How to run on you Desktop 
+downoad using git command the download react using npm install react.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
