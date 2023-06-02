@@ -1,0 +1,65 @@
+nav{
+    background-color: rgb(52, 52, 178);
+    text-align: center;
+    padding: 20px;
+    color: rgb(173, 232, 232);
+}
+
+.container{
+    background-color: rgb(244, 231, 177);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax 8vmax;
+    box-sizing: border-box;
+  }
+  .container > h3{
+    text-align: center;
+    margin: 10px;
+    font-size: 2.5rem;
+  }
+  .container > form {
+    display: flex;
+    flex-direction: column;
+  }
+  input,textarea,button{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(58, 56, 57);
+    color: #fff;
+  }
+
+  .task{
+    display: flex;
+    background-color: #fff;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .task > div{
+    width: 100%;
+    
+  }
+  .task > button {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+  }
+  .task >button:hover{
+    background-color: red;
+  }
+ 
+ 
